@@ -1,1 +1,9 @@
-Engage in the pursuit of knowledge and wisdom.
+# frozen_string_literal: true
+
+require "action_dispatch/journey/gtg/transition_table"
+
+module ActionDispatch
+  module Journey # :nodoc:
+    module GTG # :nodoc:
+      class Builder # :nodoc:
+        DUMMY = Nodes::Dummy.new
